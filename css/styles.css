@@ -9,6 +9,15 @@ body {
     position: relative;
 }
 
+.colored-section {
+    background-color: #719782;
+    color: white;
+}
+
+.colored-section h1, .colored-section p {
+    color: white;
+}
+
 section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -55,7 +64,7 @@ nav {
 
 
 .nav-link {
-    color: #a9a9a9;
+    color: #719782;
     font-family: Barlow, sans-serif;
     font-size: 22px;
     margin: auto 10px;
@@ -83,6 +92,10 @@ nav {
     display: flex;
 }
 
+.fa-heart {
+    color: #ff748c;
+}
+
 #hero .hero-img-col {
     justify-content: flex-end;
     margin-top: 100px;
@@ -97,6 +110,11 @@ nav {
 
 /* About */
 
+#about {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+}
 .about-desc {
     position: relative;
     top: 5rem;
@@ -152,12 +170,9 @@ nav {
 
 #contact {
     text-align: center;
-    background-color: #99A799;
-    color: white;
 }
 
 #contact h1 {
-    color: white;
     text-align: center;
     margin-bottom: 3rem;
 }
