@@ -198,3 +198,96 @@ nav {
     margin-top: 3rem;
     text-align: center;
 }
+
+/* Media  */
+
+/* If Viewport is equal is to 340px or less than */
+
+@media only screen and (max-width: 340px) {
+
+    section p {
+        width: 120%;
+    }
+
+    /* Buttons */
+    .button {
+        max-width: 85%;
+        border-radius: 50px !important;
+        border: none;
+        background-color: #2c965c;
+        color: white;
+        margin-left: 1.25rem;
+    }
+
+    /* Hero */
+    #hero {
+        margin-left: 1.5rem;
+    }
+    .title h1 {
+        margin-top: 2rem;
+    }
+
+    .title h1 {
+        font-size: 2.55rem;
+    }
+
+    #hero img {
+        margin-left: 2.35rem;
+        width: 100%;
+    }
+    
+    /* About */
+    #about {
+        margin: 0 auto;
+        width: 100%;
+        padding: 245px;
+    }
+
+}
+
+/* If Viewport is equal is to 375px or less than */
+
+@media only screen and (max-width: 430px) {
+
+    section p {
+        width: 120%;
+    }
+
+    /* Buttons */
+    .button {
+        max-width: 85%;
+        border-radius: 50px !important;
+        border: none;
+        background-color: #2c965c;
+        color: white;
+        margin-left: 1.25rem;
+    }
+
+    .navbar {
+        padding-left: 1rem;
+    }
+    /* Hero */
+    #hero {
+        margin-left: 6rem;
+    }
+    .title h1 {
+        margin-top: 2rem;
+    }
+
+    .title h1 {
+        font-size: 2.55rem;
+    }
+
+    #hero img {
+        margin-left: 2.45rem;
+        width: 100%;
+    }
+    
+    /* About */
+    #about {
+        margin: 0 auto;
+        width: 100%;
+        padding: 245px;
+    }
+
+}
