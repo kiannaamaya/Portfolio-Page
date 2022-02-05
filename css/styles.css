@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@0,700;0,900;1,900&family=Kanit&family=Ubuntu:wght@400;500&display=swap');
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    font-weight: 900;
+    font-family: Fraunces, serif;
+    color: #ff748c;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-size: 16px;
+    font-weight: 300;
+    width: 80%;
+    font-family: Barlow, sans-serif;
+}
+
+.button {
+    max-width: 50%;
+    border-radius: 50px !important;
+    border: none;
+    background-color: #2c965c;
+    color: white;
+}
+
+.button:hover {
+    background-color: #F6CAD8;
+    color: black;
+}
+
+/* Navigations */
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 110px;
+    margin-left: 4rem;
+}
+
+
+.nav-link {
+    color: #a9a9a9;
+    font-family: Barlow, sans-serif;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+.nav-link:hover {
+    color: #ff748c;
+}
+
+/* Hero */
+
+.title {
+    position: relative;
+    top: 5rem;
+    margin-left: 6rem;
+}
+
+.title h1 {
+    font-size: 4rem;
+}
+
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .hero-img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img {
+    max-width: 130% !important;
+    width: 100%;
+    position: relative;
+    top: 2rem;
+}
+
+/* About */
+
+.about-desc {
+    position: relative;
+    top: 5rem;
+}
+
+/* Projects */
+
+.projects h1 {
+    margin-bottom: 5rem;
+    margin-left: 6rem;
+}
+
+.projects {
+    padding-bottom: 10rem;
+    margin-left: 6rem;
+}
+.project-img {
+    width: 100%;
+}
+
+.project-img-right {
+    position: relative;
+    right: 5rem;
+}
+
+.project-desc-left {
+    margin-left: 6rem;
+}
+
+.project-desc-right {
+    margin-left: 3rem;
+}
+
+.fab {
+    font-size: 2rem;
+}
+
+.live-site-btn, .github-btn {
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+
+.live-site-btn {
+    background-color: #eca5bc;
+}
+
+.github-btn {
+    background-color: #2c965c;
+}
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    background-color: #99A799;
+    color: white;
+}
+
+#contact h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact-details {
+    color: white;
+}
+
+.contact-details a{
+    font-family: Barlow, sans-serif;
+}
+
+.contact-details:hover {
+    color: #F6CAD8;
+}
+
+.contact-details .fab, .contact-details .fas {
+    font-size: 2rem;
+    margin-right: 0.4rem;
+}
+
+.attribution {
+    margin-top: 3rem;
+    text-align: center;
+}
