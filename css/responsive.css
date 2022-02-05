@@ -44,7 +44,7 @@
 
 /* If Viewport is equal is to 375px or less than */
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 380px) {
 
     section p {
         width: 120%;
@@ -91,7 +91,7 @@
 
 /* If Viewport is equal is to 375px or less than */
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 430px) {
 
     section p {
         width: 120%;
@@ -112,7 +112,7 @@
     }
     /* Hero */
     #hero {
-        margin-left: 2.4rem;
+        margin-left: 6rem;
     }
     .title h1 {
         margin-top: 2rem;
