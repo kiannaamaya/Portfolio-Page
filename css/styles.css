@@ -351,6 +351,9 @@ nav {
 
 @media only screen and (max-width: 430px) {
 
+    body {
+        overflow-x: hidden;
+    }
     .container {
         padding-left: 0;
         padding-right: 0;
@@ -404,7 +407,6 @@ nav {
     /* About */
     #about {
         margin: 0 auto;
-        width: 100%;
         padding: 90px 230px;
     }
     #about h1 {
@@ -425,7 +427,7 @@ nav {
     .about-desc {
         position: relative;
         top: 1rem;
-        right: 7rem;
+        right: 8rem;
         padding-left: 0;
     }
 
@@ -434,10 +436,6 @@ nav {
     }
 
     /* Projects */
-
-    #projects {
-        width: 100%;
-    }
 
     #projects h1 {
         text-align: center;
