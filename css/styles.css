@@ -360,7 +360,7 @@ nav {
     }
 
     section p {
-        width: 120%;
+        width: 290px;
     }
 
     /* Buttons */
@@ -384,7 +384,7 @@ nav {
     }
     /* Hero */
      #hero {
-         margin-bottom: 15rem;
+         margin-bottom: 10rem;
     }
 
     .btn {
@@ -399,9 +399,10 @@ nav {
     }
 
     #hero img {
-        top: 15rem;
+        visibility: hidden;
+        /* top: 15rem;
         right: 12rem;
-        width: 111px;
+        width: 111px; */
     }
     
     /* About */
