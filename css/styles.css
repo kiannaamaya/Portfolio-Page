@@ -132,7 +132,7 @@ nav {
     margin-left: 6rem;
 }
 .project-img {
-    width: 100%;
+    width: 500px;
 }
 
 .project-img-right {
@@ -209,10 +209,7 @@ nav {
         width: 120%;
     }
 
-    #about h1 {
-        width: 200px;
-        text-align: center;
-    }
+    
 
     /* Buttons */
     .button {
@@ -263,6 +260,11 @@ nav {
         position: relative;
     }
 
+    #about h1 {
+        width: 200px;
+        text-align: center;
+    }
+
     .about p{
         width: 250px;
     }
@@ -295,10 +297,6 @@ nav {
     .project-desc-left {
         margin: 5rem;
         width: 320px;
-    }
-    
-    .project-desc-right {
-        
     }
 }
 
@@ -349,9 +347,14 @@ nav {
 
 }
 
-/* If Viewport is equal is to 375px or less than */
+/* If Viewport is equal is to 430px or less than */
 
 @media only screen and (max-width: 430px) {
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     section p {
         width: 120%;
@@ -370,9 +373,19 @@ nav {
     .navbar {
         padding-left: 1rem;
     }
+
+    /* Title */
+
+    .title {
+        /* margin-left: 7rem; */
+    }
     /* Hero */
-    #hero {
-        margin-left: rem;
+     #hero {
+         margin-bottom: 15rem;
+    }
+
+    .btn {
+        width: 200px;
     }
     .title h1 {
         margin-top: 2rem;
@@ -383,15 +396,97 @@ nav {
     }
 
     #hero img {
-        margin-left: 2.45rem;
-        width: 100%;
+        top: 15rem;
+        right: 12rem;
+        width: 111px;
     }
     
     /* About */
     #about {
         margin: 0 auto;
         width: 100%;
-        padding: 245px;
+        padding: 90px 230px;
+    }
+    #about h1 {
+        width: 200px;
+        text-align: center;
+    }
+    
+    .about-img-col {
+        width: 16rem;
+        position: relative;
+        right: 7rem;
     }
 
+    .about p{
+        width: 250px;
+    }
+
+    .about-desc {
+        position: relative;
+        top: 1rem;
+        right: 7rem;
+        padding-left: 0;
+    }
+
+    .about-img img{
+        width: 155px;
+    }
+
+    /* Projects */
+
+    #projects {
+        width: 100%;
+    }
+
+    #projects h1 {
+        text-align: center;
+    }
+
+    .projects {
+        margin-left: 0;
+        margin-top: 4rem;
+        padding-bottom: 0;
+        position: relative;
+        right: 2rem;
+        
+    }
+
+    .project-img {
+        width: 300px;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 105px;
+    }
+    
+    .project-img-left {
+        left: 20px; 
+    }
+    .project-desc-left {
+        margin: 4rem 7rem;
+        width: 300px;
+    }
+
+    .project-desc-right {
+        margin: 4rem 7rem;
+        width: 300px
+    }
+
+    /* Contact */
+
+    .live-site-btn, .github-btn {
+        margin-top: 1rem;
+        margin-left: 0rem;
+        color: white;
+    }
+
+    .live-site-btn {
+        background-color: #eca5bc;
+    }
+    
+    .github-btn {
+        background-color: #2c965c;
+    }
 }
