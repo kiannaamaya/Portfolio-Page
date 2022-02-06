@@ -351,8 +351,9 @@ nav {
 
 @media only screen and (max-width: 430px) {
 
-    body {
+    html, body {
         overflow-x: hidden;
+        max-width: 100%;
     }
     .container {
         padding-left: 0;
@@ -377,14 +378,11 @@ nav {
         padding-left: 1rem;
     }
 
-    /* Title */
-
-    .title {
-        /* margin-left: 7rem; */
-    }
     /* Hero */
      #hero {
-         margin-bottom: 10rem;
+        margin-bottom: 8rem;
+        position: relative;
+        right: 1.5rem;
     }
 
     .btn {
@@ -409,16 +407,19 @@ nav {
     #about {
         margin: 0 auto;
         padding: 90px 230px;
+        text-align: center;
     }
     #about h1 {
         width: 200px;
         text-align: center;
+        position: relative;
+        left: 1.45rem;
     }
     
     .about-img-col {
         width: 16rem;
         position: relative;
-        right: 7rem;
+        right: 6rem;
     }
 
     .about p{
