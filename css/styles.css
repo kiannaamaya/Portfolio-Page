@@ -209,6 +209,11 @@ nav {
         width: 120%;
     }
 
+    #about h1 {
+        width: 200px;
+        text-align: center;
+    }
+
     /* Buttons */
     .button {
         max-width: 85%;
@@ -216,12 +221,12 @@ nav {
         border: none;
         background-color: #2c965c;
         color: white;
-        margin-left: 1.25rem;
+        margin-left: 1.55rem;
     }
 
     /* Hero */
-    #hero {
-        margin-left: 1.5rem;
+    .title {
+        margin-left: 0;
     }
     .title h1 {
         margin-top: 2rem;
@@ -232,17 +237,69 @@ nav {
     }
 
     #hero img {
-        margin-left: 2.35rem;
+        margin-left: 1.55rem;
         width: 100%;
     }
-    
     /* About */
     #about {
-        margin: 0 auto;
+        margin: 0%;
         width: 100%;
         padding: 245px;
     }
 
+    .about-img-col {
+        width: 12rem;
+        position: relative;
+        right: 7rem;
+    }
+
+    /* About */
+    #about {
+        margin-bottom: 3rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .about{
+        position: relative;
+    }
+
+    .about p{
+        width: 250px;
+    }
+
+    .about-desc {
+        position: relative;
+        top: 1rem;
+        right: 7rem;
+    }
+
+    /* Projects */
+    
+    #projects {
+        width: 100%;
+    }
+
+    #projects h1 {
+        text-align: center;
+    }
+
+    .projects {
+        margin-left: 0;
+        
+    }
+
+    .project-img{
+        width: 300px;
+    }
+    
+    .project-desc-left {
+        margin: 5rem;
+        width: 320px;
+    }
+    
+    .project-desc-right {
+        
+    }
 }
 
 /* If Viewport is equal is to 375px or less than */
@@ -315,7 +372,7 @@ nav {
     }
     /* Hero */
     #hero {
-        margin-left: 6rem;
+        margin-left: rem;
     }
     .title h1 {
         margin-top: 2rem;
