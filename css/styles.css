@@ -122,7 +122,7 @@ nav {
 
 /* Projects */
 
-.projects h1 {
+#projects h1 {
     margin-bottom: 5rem;
     margin-left: 6rem;
 }
@@ -202,14 +202,13 @@ nav {
 /* Media  */
 
 /* If Viewport is equal is to 340px or less than */
+/* Mobile S */
 
 @media only screen and (max-width: 340px) {
 
     section p {
         width: 120%;
     }
-
-    
 
     /* Buttons */
     .button {
@@ -300,7 +299,8 @@ nav {
     }
 }
 
-/* If Viewport is equal is to 375px or less than */
+/* If Viewport is equal is to 380px or less than */
+/* Mobile M */
 
 @media only screen and (max-width: 380px) {
 
@@ -347,8 +347,146 @@ nav {
 
 }
 
-/* If Viewport is equal is to 430px or less than */
 
+/* If Viewport is equal is to 390px */
+/* iPhone 12 Pro */
+@media only screen and (max-width: 390px) {
+
+    
+    
+    section p {
+        width: 290px;
+    }
+
+    /* Buttons */
+    .button {
+        max-width: 85%;
+        border-radius: 50px !important;
+        border: none;
+        background-color: #2c965c;
+        color: white;
+        margin-left: 1.25rem;
+    }
+
+    .navbar {
+        padding-left: 1rem;
+    }
+
+    /* Hero */
+     #hero {
+        margin-bottom: 8rem;
+        position: relative;
+        right: 1.5rem;
+    }
+
+    .btn {
+        width: 200px;
+    }
+    .title h1 {
+        margin-top: 2rem;
+    }
+
+    .title h1 {
+        font-size: 2.55rem;
+    }
+
+    #hero img {
+        /* display: none; */
+        /* top: 15rem;
+        right: 12rem;
+        width: 111px; */
+    }
+    
+    /* About */
+    #about {
+        margin: 0 auto;
+        padding: 90px 215px;
+        text-align: center;
+    }
+    #about h1 {
+        width: 200px;
+        text-align: center;
+        position: relative;
+        left: 1.45rem;
+    }
+    
+    .about-img-col {
+        width: 16rem;
+        position: relative;
+        right: 6rem;
+    }
+
+    .about p{
+        width: 250px;
+    }
+
+    .about-desc {
+        position: relative;
+        top: 1rem;
+        right: 8rem;
+        padding-left: 0;
+    }
+
+    .about-img img{
+        width: 155px;
+    }
+
+    /* Projects */
+
+    #projects h1 {
+        text-align: center;
+    }
+
+    .projects {
+        margin-left: 0;
+        margin-top: 4rem;
+        padding-bottom: 0;
+        position: relative;
+        right: 2rem;
+        
+    }
+
+    .project-img {
+        width: 300px;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 105px;
+    }
+    
+    .project-img-left {
+        left: 20px; 
+    }
+    .project-desc-left {
+        margin: 4rem 7rem;
+        width: 300px;
+    }
+
+    .project-desc-right {
+        margin: 4rem 7rem;
+        width: 300px
+    }
+
+    /* Contact */
+
+    .live-site-btn, .github-btn {
+        margin-top: 1rem;
+        margin-left: 0rem;
+        color: white;
+    }
+
+    .live-site-btn {
+        background-color: #eca5bc;
+    }
+    
+    .github-btn {
+        background-color: #2c965c;
+    }
+}
+
+/* If Viewport is equal is to 430px or less than */
+/* Mobile L */
 @media only screen and (max-width: 430px) {
 
     html, body {
