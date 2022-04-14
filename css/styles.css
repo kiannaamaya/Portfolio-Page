@@ -144,6 +144,9 @@ nav {
     margin-left: 6rem;
 }
 
+div.col.project-desc-left p{
+    padding-right: 10px;
+}
 .project-desc-right {
     margin-left: 3rem;
 }
@@ -382,6 +385,7 @@ nav {
     .btn {
         width: 200px;
     }
+
     .title h1 {
         margin-top: 2rem;
     }
