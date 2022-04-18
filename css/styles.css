@@ -164,7 +164,7 @@ nav {
 }
 
 .projects {
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
 
 .fab {
@@ -267,9 +267,14 @@ nav {
         text-align: center;
     }
 
+    .projects {
+        margin-bottom: 8rem;
+    }
+
     .projectsContent {
         margin-left: 2rem;
     }
+
     .projectInfo {
         text-align: center;
     }
