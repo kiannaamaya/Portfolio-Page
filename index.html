@@ -19,61 +19,60 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar">
-        <div class="container">
-          <a class="navbar-brand" href="#hero">
-              <img src="assets/logo.png" class="logo" alt="logo"/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#hero">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-            
-          </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <img src="assets/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <!-- End Navigation bar -->
 
       <!-- Hero Section -->
       <section id="hero">
-          <div class="container">
-              <div class="row hero">
-                  <div class="col title">
-                    <h1>Hey,<br> I'm Kianna</h1>
-                    <p> Nice to meet you! I'm a self-taught web developer and I'm learning everyday. I hope you enjoy my portfolio, I have been working hard to get it looking exactly how I want! <i class="fas fa-heart"></i></p>
-                    <a type="button" class="btn button btn-primary btn-lg" href="mailto: iamkiannahendricks@gmail.com">Contact Me</a>
-                  </div>
-                  <div class="col hero-img-col">
-                    <img class="hero-img" src="/assets/hero-img.png" alt="abstract hero-img"
-                    class="img-fluid"/>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- End Hero Section -->
-      <!-- About -->
-      <section id="about" class="colored-section">
-        <div class="container">
-            <div class="row about">
-                <div class="col about-img">
-                  <img class="about-img-col" src="/assets/myavatar.png" alt="avatar illustration"
+        <div class="grid">
+            <div class="row hero">
+                <div class="col-lg-6 title">
+                  <h1><i>Hey</i>, <br> <span id="typewriter">I'm Kianna</span></h1>
+                  <p> Nice to meet you! I'm a self-taught web developer and I'm learning everyday. I hope you enjoy my portfolio, I have been working hard to get it looking exactly how I want! <i class="fas fa-heart"></i></p>
+            
+                </div>
+                <div class="col-lg-6 heroImageCol">
+                  <img class="heroImage" src="/assets/hero-img.png" alt="abstract hero-img"
                   class="img-fluid"/>
                 </div>
-                <div class="col about-desc">
+            </div>
+        </div>
+    </section>
+      <!-- End Hero Section -->
+      <!-- About -->
+      <section id="about" class="coloredSection">
+        <div class="grid">
+            <div class="row about">
+                <div class="col-lg-6 aboutImage">
+                  <img class="aboutImage" src="/assets/myavatar.png" alt="avatar illustration"
+                  class="img-fluid"/>
+                </div>
+                <div class="col-lg-6 aboutDescription">
                     <h1>About Me</h1>
                   <p>
                     I'm 20 years old. I'm a self-taught web developer and senior Economics student at North Carolina A&T State University. I'm very passionate about about technology and how it can reach the world. It's very satisfying to see something you made put to use out in the world.
@@ -89,130 +88,135 @@
 
       <!-- Projects -->
       <section id="projects">
-        <div class="container">
+        <div class="projectsContainer ">
           <h1>My Projects</h1>
+          <div class="grid projectsContent">
           <div class="row projects">
-            <div class="col">
-              <img class="project-img project-img-left" src="assets/rock-paper-scissors.png"/>
+            <div class="col-lg-6">
+              <img class="projectImage" src="assets/rock-paper-scissors.png"/>
             </div>
-            <div class="col project-desc-right">
+            <div class="col-lg-6 projectInfo">
               <h2>Rock, Paper, Scissors</h2>
                 <p>Rock, Paper, Scissors game on your browser. Compete against "The House" and see how high your score can get.</p>
                 <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://iridescent-puppy-e3edd6.netlify.app/" role="button" target="_blank">Live Site</a>
-          <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya/Rock-Paper-Scissors" role="button" target="_blank">Github Repo</a>            </div>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://iridescent-puppy-e3edd6.netlify.app/" role="button" target="_blank">Live Site</a>
+          <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya/Rock-Paper-Scissors" role="button" target="_blank">Github</a>            </div>
           </div>
           <div class="row projects">
-            <div class="col project-desc-left">
+            <div class="col-lg-6 projectInfo">
               <h2>Simon</h2>
                 <p>The classic Simon game on your browser, complete with animations, sounds, and levels!</p>
                 <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://kiannaamaya.github.io/Simon-Game-Challenge/" role="button" target="_blank">Live Site</a>
-                <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya/Simon-Game-Challenge" role="button" target="_blank">Github Repo</a>            </div>
-            <div class="col order-first order-sm-last project-img-right">
-              <img class="project-img project-img-right" src="assets/simon-says.png"/>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://kiannaamaya.github.io/Simon-Game-Challenge/" role="button" target="_blank">Live Site</a>
+                <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya/Simon-Game-Challenge" role="button" target="_blank">Github</a>            </div>
+            <div class="col order-first order-lg-last project-img-right">
+              <img class="projectImage" src="assets/simon-says.png"/>
             </div>
           </div>
           <div class="row projects">
-            <div class="col">
-              <img class="project-img project-img-left" src="assets/todolist.png"/>
+            <div class="col-lg-6">
+              <img class="projectImage" src="assets/todolist.png"/>
             </div>
-            <div class="col project-desc-right">
+            <div class="col-lg-6 projectInfo">
               <h2>To-Do List</h2>
                 <p>A To-Do list web application created using Mongoose. You can add/delete tasks.</p>
                 <i class="fab fa-node-js"></i> <i class="fab fa-js-square"> </i> <i class="fab fa-css3-alt"></i> <br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://arcane-castle-39985.herokuapp.com/" role="button" target="_blank">Live Site</a>
-          <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya" role="button" target="_blank">Github Repo</a>            </div>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://arcane-castle-39985.herokuapp.com/" role="button" target="_blank">Live Site</a>
+          <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya" role="button" target="_blank">Github</a>            </div>
           </div>
           <div class="row projects">
-            <div class="col project-desc-left">
+            <div class="col-lg-6 projectInfo">
               <h2>Drumkit</h2>
                 <p>Play drumkit sounds with a mouse or keyboard.</p>
                 <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://kiannaamaya.github.io/Drum-Kit-Starting-Files/" role="button" target="_blank">Live Site</a>
-                <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya/Drum-Kit-Starting-Files" role="button" target="_blank">Github Repo</a>            </div>
-            <div class="col order-first order-sm-last project-img-right">
-              <img class="project-img project-img-right" src="assets/drumkit.png"/>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://kiannaamaya.github.io/Drum-Kit-Starting-Files/" role="button" target="_blank">Live Site</a>
+                <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya/Drum-Kit-Starting-Files" role="button" target="_blank">Github</a>            </div>
+            <div class="col-lg-6 order-first order-lg-last projectImageRight">
+              <img class="projectImage" src="assets/drumkit.png"/>
             </div>
           </div>
           <div class="row projects">
-            <div class="col">
-              <img class="project-img project-img-left" src="assets/dicee.png"/>
+            <div class="col-lg-6">
+              <img class="projectImage project" src="assets/dicee.png"/>
             </div>
-            <div class="col project-desc-right">
+            <div class="col-lg-6 projectInfo">
               <h2>Dicee Challenge</h2>
                 <p>With each refresh, generate random dice rolls and determine a winner.</p>
                 <i class="fab fa-js-square"></i> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://kiannaamaya.github.io/Dicee-Challenge/" role="button" target="_blank">Live Site</a>
-          <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya/Dicee-Challenge" role="button" target="_blank">Github Repo</a>            </div>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://kiannaamaya.github.io/Dicee-Challenge/" role="button" target="_blank">Live Site</a>
+          <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya/Dicee-Challenge" role="button" target="_blank">Github</a>            </div>
           </div>
           <div class="row projects">
-            <div class="col project-desc-left">
+            <div class="col-lg-6 projectInfo">
               <h2>Tindog</h2>
                 <p>A landing page for the Tindog app. A twist on a typical dating app.</p>
                 <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-bootstrap"></i><br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://kiannaamaya.github.io/TinDog-WebDevBootcamp/" role="button" target="_blank">Live Site</a>
-                <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya/TinDog-WebDevBootcamp" role="button" target="_blank">Github Repo</a>            </div>
-            <div class="col order-first order-sm-last project-img-right">
-              <img class="project-img project-img-right" src="assets/tindog.png"/>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://kiannaamaya.github.io/TinDog-WebDevBootcamp/" role="button" target="_blank">Live Site</a>
+                <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya/TinDog-WebDevBootcamp" role="button" target="_blank">Github</a>            </div>
+            <div class="col-lg-6 order-first order-lg-last projectImageButton">
+              <img class="projectImage" src="assets/tindog.png"/>
             </div>
           </div>
           <div class="row projects">
-            <div class="col">
-              <img class="project-img project-img-left" src="assets/nftcard.png"/>
+            <div class="col-lg-6">
+              <img class="projectImage" src="assets/nftcard.png"/>
             </div>
-            <div class="col project-desc-right">
+            <div class="col-lg-6 projectInfo">
               <h2>NFT Preview Card</h2>
                 <p>A preview card page.</p>
                 <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://kiannaamaya.github.io/nft-preview-card-component-main/" role="button" target="_blank">Live Site</a>
-          <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya/nft-preview-card-component-main" role="button" target="_blank">Github Repo</a>            </div>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://kiannaamaya.github.io/nft-preview-card-component-main/" role="button" target="_blank">Live Site</a>
+          <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya/nft-preview-card-component-main" role="button" target="_blank">Github</a>            </div>
           </div>
           <div class="row projects">
-            <div class="col project-desc-left">
+            <div class="col-lg-6 projectInfo">
               <h2>3-Card Column</h2>
                 <p>A preview card of vehicle options.</p>
                 <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> </i><br>
-                <a class="btn button primary-button mr-4 live-site-btn" href="https://kiannaamaya.github.io/3-column-preview-card-component-main/" role="button" target="_blank">Live Site</a>
-                <a class="btn button secondary-button mr-4 github-btn" href="https://github.com/kiannaamaya/3-column-preview-card-component-main" role="button" target="_blank">Github Repo</a>
+                <a class="btn button primary-button mr-4 liveSiteButton" href="https://kiannaamaya.github.io/3-column-preview-card-component-main/" role="button" target="_blank">Live Site</a>
+                <a class="btn button secondary-button mr-4 githubButton" href="https://github.com/kiannaamaya/3-column-preview-card-component-main" role="button" target="_blank">Github</a>
             </div>
-            <div class="col order-first order-sm-last project-img-right">
-              <img class="project-img project-img-right" src="assets/3colcard.png"/>
+            <div class="col-lg-6 order-first order-lg-last projectImageButton">
+              <img class="projectImage" src="assets/3colcard.png"/>
             </div>
           </div>
+        </div>
         </div>
       </section>
       <!-- End Projects -->
 
       <!-- Contact -->
-      <section id="contact" class="colored-section">
-        <div class="container">
-          <div class=""row align-items-center projects">
-          <div>
-            <h1>Contact Me</h1>
-          </div>
-          <div class="contact-links" id="contacts">
-            <a
-              id="profile-link"
-              href="https://github.com/kiannaamaya"
-              target="_blank"
-              class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-            <a
-              href="https://twitter.com/KiannaCanCode"
-              target="_blank"
-              class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
-            <a
-              href="https://www.linkedin.com/in/kiannaamhendricks/"
-              target="_blank"
-              class="btn contact-details"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="mailto:iamkiannahendricks@gmail.com" 
-              class="btn contact-details"><i class="fas fa-envelope"></i> Email me</a>
-          </div>
-          <div class="attribution">
-            ©2022 | Designed and Coded by Kianna Hendricks
-          </div>
+      <footer id="contact" class="coloredSection contact">
+          <div class="row align-items-center justify-content-center">
+            <div>
+              <h1>Contact Me</h1>
+            </div>
+            <div class="contactLinks" id="contacts">
+              <a
+                id="profile-link"
+                href="https://github.com/kiannaamaya"
+                target="_blank"
+                class="btn contactDetails"><i class="fab fa-github"></i> GitHub</a>
+              <a
+                href="https://twitter.com/KiannaCanCode"
+                target="_blank"
+                class="btn contactDetails"><i class="fab fa-twitter"></i> Twitter</a>
+              <a
+                href="https://www.linkedin.com/in/kiannaamhendricks/"
+                target="_blank"
+                class="btn contactDetails"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              <a href="mailto:iamkiannahendricks@gmail.com" 
+                class="btn contactDetails"><i class="fas fa-envelope"></i> Email me</a>
+            </div>
+            <div class="attribution">
+              ©2022 | Designed and Coded by Kianna Hendricks
+            </div>
         </div>
-      </section>
+      </footer>
       <!-- End Contact -->
+
+      <!-- JS-->
+
+      <script src="js/app.js"></script>
 </body>
 </html>
