@@ -167,6 +167,9 @@ nav {
     margin-bottom: 6rem;
 }
 
+.fab {
+    font-size: 2rem;
+}
 
 .liveSiteButton, .githubButton {
     margin-top: 2rem;
